@@ -24,7 +24,7 @@ section {
     background-color: #a5b3aa;
     padding: 25px;
     width: 100%;
-    border-radius:11% ;
+    border-radius:2% ;
 }
 .encabezado{
     text-align: center;
@@ -33,6 +33,8 @@ section {
 
 }
 .navegar{
+    font-style: oblique;
+    font-family: arial;
     background-color: #a5b3aa;
     padding: 0%;
     margin: 0%;
@@ -46,6 +48,26 @@ section {
     text-decoration: none;
 }
 .nav:hover{
-    background:#fcfcf3;  
+    background:#fcfcf3;
+    border-radius: 5%;
 }
+
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-style:oblique;
+    font-family: monospace;
+}
+.ubicacion{
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: oblique;
+}
+
+.descripcion{
+    text-align:center;
+    font-family: arial; 
+}
+
+
 
