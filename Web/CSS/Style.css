@@ -12,6 +12,7 @@ body{
 }
 
 .imagen{
+    
     height: 50%;
     width: 50%; 
     border-radius:20% ;
@@ -40,12 +41,15 @@ section {
     margin: 0%;
     display: flex;
     justify-content: space-around;
+    opacity: 50%;
 }
 .nav{
     background-color: #a5b3aa;
     padding: 10px 30px;
     display: inline-block;
     text-decoration: none;
+    
+    
 }
 .nav:hover{
     background:#fcfcf3;
@@ -67,6 +71,10 @@ h1{
 .descripcion{
     text-align:center;
     font-family: arial; 
+}
+
+.espacio{
+    background-color: #fcfcf3;
 }
 
 
